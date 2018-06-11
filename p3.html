@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="settingbar" id="settingsbar">
+      <button onclick="toggleSettings();">Postavke</button>
+      <div id="settings">
+        <div class="">
+          <p>Boja Pozadine</p>
+          <button class="b1" type="button" onclick="setBg('#009FDB');" name="button">pritisni me</button>
+          <button class="b2" type="button" onclick="setBg('#db3c00');" name="button">pritisni me</button>
+          <button class="b3" type="button" onclick="setBg('#fff');" name="button">pritisni me</button>
+          <button class="b4" type="button" onclick="setBg('#000');" name="button">pritisni me</button>
+        </div>
+        <div class="">
+          <p>Boja Slova</p>
+          <button class="b1" type="button" onclick="setC('#009FDB');" name="button">pritisni me</button>
+          <button class="b2" type="button" onclick="setC('#db3c00');" name="button">pritisni me</button>
+          <button class="b3" type="button" onclick="setC('#fff');" name="button">pritisni me</button>
+          <button class="b4" type="button" onclick="setC('#000');" name="button">pritisni me</button>
+        </div>
+      </div>
+  </div>
+
+    <div class="banner">
+        <img id="slika" src="" alt="slika">
+    </div>
+    <div class="nav">
+        <button onclick="home();">Home</button>
+        <button onclick="p1();">Page 1</button>
+        <button onclick="p2();">Page 2</button>
+        <button onclick="p3();">About</button>
+        <button onclick="p4();">Izracun</button>
+    </div>
+
+    <div class="content">
+        <div class="story">
+            <h1>Ovo je 'about' stranica.</h1>
+            <p>Kontakt telefon: 099 234 5678</p>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
